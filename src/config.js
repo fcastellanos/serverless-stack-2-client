@@ -1,12 +1,12 @@
 const dev = {
-  STRIPE_KEY: "sk_test_SQNPZC9lYQYWTcbWiYOpe9mj",
+  STRIPE_KEY: "pk_test_UfSD4SORA4zbL9N8R2Bzc7wx",
   s3: {
     REGION: "us-east-1",
     BUCKET: "notes-app-2-api-dev-attachmentsbucket-1k3ma84gkkpoq"
   },
   apiGateway: {
     REGION: "us-east-1",
-    URL: "https://am05dhdqye.execute-api.us-east-1.amazonaws.com/dev"
+    URL: "https://notesapi.castellanos.cloud/dev"
   },
   cognito: {
     REGION: "us-east-1",
@@ -17,14 +17,14 @@ const dev = {
 };
 
 const prod = {
-  STRIPE_KEY: "sk_test_SQNPZC9lYQYWTcbWiYOpe9mj",
+  STRIPE_KEY: "pk_test_UfSD4SORA4zbL9N8R2Bzc7wx",
   s3: {
     REGION: "us-east-1",
     BUCKET: "notes-app-2-api-prod-attachmentsbucket-gg916wzx0oa4"
   },
   apiGateway: {
     REGION: "us-east-1",
-    URL: "https://tdrmej71qh.execute-api.us-east-1.amazonaws.com/prod"
+    URL: "https://notesapi.castellanos.cloud/prod"
   },
   cognito: {
     REGION: "us-east-1",
